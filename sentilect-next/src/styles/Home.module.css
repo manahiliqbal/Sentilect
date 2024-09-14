@@ -1,0 +1,40 @@
+/* styles/Home.module.css */
+.container {
+  position: relative;
+  overflow: hidden;
+  background: #000; /* Dark background */
+  color: #fff; /* Text color */
+  font-family: 'Press Start 2P', cursive; /* Y2K font */
+}
+
+.textarea {
+  background: #111;
+  color: #fff;
+  border: 2px solid #666;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.button {
+  background: #ff00ff; /* Bright purple */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background: #cc00cc; /* Slightly darker purple */
+}
+
+.result {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+}
